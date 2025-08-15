@@ -29,7 +29,7 @@ const MenuSectionCards = ({ onAddToOrder }) => {
     <div className="container">
       <div className="row g-4">
         {products.map((product) => (
-          <div className="col-md-4" key={product.name}>
+          <div className="col-md-4" key={product.id}>
             <div className="card menu-card h-100">
               <div
                 className="d-flex justify-content-center align-items-center border-bottom"
